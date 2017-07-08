@@ -1,0 +1,26 @@
+doctype html
+html
+  head
+    title Platzigram
+    link(href='https://fonts.googleapis.com/css?family=Montserrat|Oleo+Script', rel='stylesheet')
+    // Compiled and minified CSS
+    link(rel='stylesheet', href='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0, user-scalable=no')
+    meta(charset='utf-8')
+    link(rel='stylesheet', href='/public/app.css')    
+    section#main-container
+    footer.site-footer
+      .container
+        .row
+          .col.s12.l3.center-align
+            a.dropdown-button.btn.btn-flat(href='#', data-activates='dropdown1') Idioma
+            ul#dropdown1.dropdown-content
+              li
+                a(href='#') Español
+              li
+                a(href='#') Ingles
+          .col.s12.l3.push-l6.center-align
+            | © 2017 KAAMEHOUSE
+    script(src='https://code.jquery.com/jquery-3.2.1.js', integrity='sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=', crossorigin='anonymous')
+    // Compiled and minified JavaScript
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js')
